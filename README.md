@@ -1,2 +1,1 @@
-# rss
-how-to documentation
+Make an RSS feed from scratch How-To
