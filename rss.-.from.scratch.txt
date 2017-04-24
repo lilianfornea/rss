@@ -1,0 +1,68 @@
+RSS Feed - From Scratch
+=======================
+(C) Lilian Fornea, AAL
+
+@lilianfornea : Twitter
+
+
+
+* Intro
+* Next Level
+* Last thoughts
+* Beyond Discussion
+
+Intro
+-----
+Is a easy job to be subscribed today in Youtube, Facebook or other online services. You just click a button and Voila: tons of electronic letters flood your e-mail. This frustrate you, but unsubscribe button is always somwhere hidden.
+What if I will say you that mankind invented something much better than whole I described in the beginning? It's called RSS Feeds - non exhausted way to get whole lotta information that you want.
+
+So ... To get Feeds to your device(s) you will need this apps!
+-Android: 
+https://play.google.com/store/apps/details?id=com.innologica.inoreader
+-iOS: 
+https://itunes.apple.com/app/inoreader/id892355414
+-Windows: 
+http://www.opera.com/computer/mail
+OR
+https://www.windowsphone.com/en-us/store/app/inoreader-rss-news-reader/763a5443-0320-4335-bce3-6b4013fc0cc5
+
+
+Next Level
+----------
+All written above was about RSS Clients. But now, about code itself.
+
+Well, RSS represent a plaint text document that have .xml (name dot xml) extension. It is very similar to HTML code.
+Example:
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>Lilian's thoughts</title>
+ <description>Tech first. Blog maybe later</description>
+ <link>http://lilianfornea.tk/rss.xml</link>
+ 
+ <item>
+ <title>RSS - From Scratch</title>
+ <description>In this briefly article I will try to convince you to start use Really Simple Syndication technology. And for advanced - how to create it from scratch</description>
+ <link>http://lilianfornea.tk/rss/rss.-.from.scratch.txt</link>
+ <pubDate>Fri, 9 Dec 2016 16:23:41 GMT</pubDate>
+ </item>
+
+</channel>
+</rss>
+
+
+After you feel document with all meta information, save it with .xml extension. In my case rss.xml was named.
+Now you can put it in root folder of your site, or another one folder.
+*Note : root folder is the same place where resides index.html index.php so it will be accessible from adress http://lilianfornea.tk/rss.xml
+
+
+Last thoughts
+-------------
+Be shure that I will update tutorial in the future. So, stay on tune. And, in case it was usefull, share please with your fellows.
+
+
+Beyond Discussion
+-----------------
+Don't be so shy! Give leafs to author. He love salad ;)
